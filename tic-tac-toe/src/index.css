@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+}
+
+.game {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.status {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.board {
+  display: grid;
+  justify-content: center;
+}
+
+.cell,
+.win-cell {
+  width: 100px;
+  height: 100px;
+  font-size: 36px;
+  border: 2px solid grey;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.win-cell {
+  background-color: rgb(13, 196, 13);
+  color: #fcfcfc;
+  border: 2px solid #414040;
+
+}
+
+.cell:hover {
+  background-color: #f0f0f0;
+}
+
+button {
+  padding: 5px 10px;
+}
